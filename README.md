@@ -1,7 +1,7 @@
 automator-pdf-evernote
 ======================
 
-This set of automator scripts have been created to easy the automation of organizing PDFs into [Evernote] (http://www.evernote.com)
+This set of automator scripts have been created to automate the organization of PDFs into [Evernote] (http://www.evernote.com) and assist in living a [paperless] (http://lifehacker.com/tag/paperless) life.
 
 ### Automator Scripts
 

@@ -31,7 +31,7 @@ To encrypt PDFs, set the password with Auotmator.app and save
 
 ### Secure Delete
 
-Once a PDF is import the file will be securely via (srm) [https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/srm.1.html]
+Once a PDF is import the file will be securely via [srm] (https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/srm.1.html)
 
     for i in "$@"
     do

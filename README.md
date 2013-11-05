@@ -3,6 +3,8 @@ automator-pdf-evernote
 
 This set of automator scripts have been created to easy the automation of organizing PDFs into [Evernote] (http://www.evernote.com)
 
+### Automator Scripts
+
 | Script                          | Description                                                                 |
 | ------------------------------- | --------------------------------------------------------------------------- |
 | PDF to Evernote.workflow        | Image Capture script to import scans directly into Evernote as a PFD        |
@@ -25,5 +27,16 @@ Update {"Local Inbox"} to the name of the Evernote notebook you which to import 
 ### Encryption Password
 
 To encrypt PDFs, set the password with Auotmator.app and save
+
+
+### Secure Delete
+
+Once a PDF is import the file will be securely via (srm) [https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/srm.1.html]
+
+    for i in "$@"
+    do
+      srm -rsf "$i"
+    done
+
 
 

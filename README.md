@@ -10,7 +10,7 @@ This set of automator scripts have been created to easy the automation of organi
 | Secure PDF to Evernote.workflow | Image Capture script to import scans directly into Evernote as a Secure PDF |
 
 
-## Set Import Notebook
+### Set Import Notebook
 
 Update {"Local Inbox"} to the name of the Evernote notebook you which to import PDFs into
 
@@ -22,7 +22,7 @@ Update {"Local Inbox"} to the name of the Evernote notebook you which to import 
     end run
 
 
-## Encryption Password
+### Encryption Password
 
 To encrypt PDFs, set the password with Auotmator.app and save
 

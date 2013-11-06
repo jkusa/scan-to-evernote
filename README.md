@@ -9,7 +9,7 @@ This set of [Automator][1] scripts for [Mac](http://www.mac.com) have been creat
 | ------------------------------- | --------------------------------------------------------------------------- |
 | PDF to Evernote.workflow        | Image Capture plugin to import scans directly into Evernote as a PFD        |
 | Secure PDF to Evernote.workflow | Image Capture plugin to import scans directly into Evernote as a Secure PDF |
-| Secure PDF to Evernote.app      | Auotmator app that takes a PDF and encrypts it and imports into Evernote    |
+| Secure PDF to Evernote.app      | Auotmator app that takes a PDF, encrypts it, and imports into Evernote    |
 
 ### Installation
 
@@ -30,12 +30,12 @@ Update {"Local Inbox"} to the name of the Evernote notebook you which to import 
 
 ### Encryption Password
 
-To encrypt PDFs, set the password with Auotmator.app and save
+To encrypt PDFs, open the script with Automator.app, set the password and save
 
 
 ### Secure Delete
 
-Once a PDF is import the file will be securely via [srm] (https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/srm.1.html)
+Once a PDF is imported the file will be securely deleted via [srm] (https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/srm.1.html)
 
     for i in "$@"
     do

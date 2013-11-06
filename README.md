@@ -1,16 +1,20 @@
 automator-pdf-evernote
 ======================
 
-This set of [Automator] (http://en.wikipedia.org/wiki/Automator_(software)) scripts for [Mac] (http://www.mac.com) have been created to ease the automation of organizing PDFs into [Evernote] (http://www.evernote.com)
+This set of [Automator] (http://en.wikipedia.org/wiki/Automator_(software)) scripts for [Mac] (http://www.mac.com) have been created to automate the organization of PDFs into [Evernote] (http://www.evernote.com) and assist in living a [paperless] (http://lifehacker.com/tag/paperless) life.
 
 ### Automator Scripts
 
 | Script                          | Description                                                                 |
 | ------------------------------- | --------------------------------------------------------------------------- |
-| PDF to Evernote.workflow        | Image Capture script to import scans directly into Evernote as a PFD        |
+| PDF to Evernote.workflow        | Image Capture plugin to import scans directly into Evernote as a PFD        |
+| Secure PDF to Evernote.workflow | Image Capture plugin to import scans directly into Evernote as a Secure PDF |
 | Secure PDF to Evernote.app      | Auotmator app that takes a PDF and encrypts it and imports into Evernote    |
-| Secure PDF to Evernote.workflow | Image Capture script to import scans directly into Evernote as a Secure PDF |
 
+### Installation
+
+1. Move Secure PDF to Evernote.app to Applications or your Desktop
+2. Double click on PDF to Evernote.workflow & Secure PDF to Evernote.workflow to install them as Image Capture plugins
 
 ### Set Import Notebook
 

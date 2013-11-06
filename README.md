@@ -1,7 +1,7 @@
 automator-pdf-evernote
 ======================
 
-This set of [Automator](<http://en.wikipedia.org/wiki/Automator_(software)>) scripts for [Mac](http://www.mac.com) have been created to automate the organization of PDFs into [Evernote](http://www.evernote.com) and assist in living a [paperless](http://lifehacker.com/tag/paperless) life.
+This set of [Automator][1] scripts for [Mac](http://www.mac.com) have been created to automate the organization of PDFs into [Evernote](http://www.evernote.com) and assist in living a [paperless](http://lifehacker.com/tag/paperless) life.
 
 ### Automator Scripts
 
@@ -43,4 +43,4 @@ Once a PDF is import the file will be securely via [srm] (https://developer.appl
     done
 
 
-
+1: http://en.wikipedia.org/wiki/Automator_(software)

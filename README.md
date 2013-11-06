@@ -43,4 +43,4 @@ Once a PDF is import the file will be securely via [srm] (https://developer.appl
     done
 
 
-1: http://en.wikipedia.org/wiki/Automator_(software)
+[1]: http://en.wikipedia.org/wiki/Automator_(software)

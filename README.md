@@ -5,11 +5,11 @@ This set of [Automator][1] scripts for [Mac](http://www.mac.com) has been create
 
 ### Automator Scripts
 
-| Script                          | Description                                                                    |
-| ------------------------------- | -------------------------------------------------------------------------------|
-| PDF to Evernote.workflow        | Image Capture plugin to import scans directly into Evernote as a PDF           |
-| Secure PDF to Evernote.workflow | Image Capture plugin to import scans directly into Evernote as a Secure PDF    |
-| Secure PDF to Evernote.app      | *Bonus* Automator app that takes a PDF, encrypts it, and imports into Evernote |
+| Script                          | Description                                                                       |
+| ------------------------------- | ----------------------------------------------------------------------------------|
+| PDF to Evernote.workflow        | Image Capture plugin to import scans directly into Evernote as a PDF              |
+| Secure PDF to Evernote.workflow | Image Capture plugin to import scans directly into Evernote as a Secure PDF       |
+| Secure PDF to Evernote.app      | *Bonus* Automator app that takes a PDF, encrypts it, and imports it into Evernote |
 
 ### Installation
 

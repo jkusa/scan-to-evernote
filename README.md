@@ -18,6 +18,7 @@ This set of [Automator][1] scripts for [Mac](http://www.mac.com) has been create
 1. Open the scripts with Automator.app
 2. Update {"Local Inbox"} to the name of the Evernote notebook you which to import PDFs into and save
 
+Applescript to update:
 
     on run {input, parameters}
         tell application id "com.evernote.evernote"

@@ -21,7 +21,7 @@
       <div class="inner">
         <h1>Automator-PDF-Evernote</h1>
         <h2></h2>
-        <a href="https://github.com/jkusa/automator-pdf-evernote" class="button"><small>View project on</small>GitHub</a>
+        <a href="https://github.com/jkusa/scan-to-evernote" class="button"><small>View project on</small>GitHub</a>
       </div>
     </header>
 
@@ -29,11 +29,11 @@
       <div class="inner clearfix">
         <section id="main-content">
           <h1>
-<a name="automator-pdf-evernote" class="anchor" href="#automator-pdf-evernote"><span class="octicon octicon-link"></span></a>automator-pdf-evernote</h1>
-
-<p><img src="https://raw.github.com/jkusa/automator-pdf-evernote/gh-pages/img/image_capture.png" alt="image capture screenshot"></p>
+<a name="scan-to-evernote" class="anchor" href="#scan-to-evernote"><span class="octicon octicon-link"></span></a>scan-to-evernote</h1>
 
 <p>This set of <a href="http://en.wikipedia.org/wiki/Automator_(software)">Automator</a> scripts for <a href="http://www.mac.com">Mac</a> has been created to automate the organization of PDFs into <a href="http://www.evernote.com">Evernote</a> and assist in living a <a href="http://lifehacker.com/tag/paperless">paperless</a> life.</p>
+
+<p><img src="https://raw.github.com/jkusa/automator-pdf-evernote/gh-pages/img/image_capture.png" alt="image capture screenshot"></p>
 
 <h3>
 <a name="automator-scripts" class="anchor" href="#automator-scripts"><span class="octicon octicon-link"></span></a>Automator Scripts</h3>
@@ -54,21 +54,22 @@
 </tr>
 <tr>
 <td>Secure PDF to Evernote.app</td>
-<td>Auotmator app that takes a PDF, encrypts it, and imports into Evernote</td>
+<td>
+<em>Bonus</em> Automator app that takes a PDF, encrypts it, and imports into Evernote</td>
 </tr>
 </tbody>
 </table><h3>
 <a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h3>
 
+<p><img src="https://raw.github.com/jkusa/automator-pdf-evernote/gh-pages/img/automator.png" alt="automator screenshot"></p>
+
+<h4>
+<a name="1-set-import-notebook" class="anchor" href="#1-set-import-notebook"><span class="octicon octicon-link"></span></a>1) Set Import Notebook</h4>
+
 <ol>
-<li>Move Secure PDF to Evernote.app to Applications or your Desktop</li>
-<li>Double click on PDF to Evernote.workflow &amp; Secure PDF to Evernote.workflow to install them as Image Capture plugins</li>
-</ol><p><img src="https://raw.github.com/jkusa/automator-pdf-evernote/gh-pages/img/automator.png" alt="autormator screenshot"></p>
-
-<h3>
-<a name="set-import-notebook" class="anchor" href="#set-import-notebook"><span class="octicon octicon-link"></span></a>Set Import Notebook</h3>
-
-<p>Update {"Local Inbox"} to the name of the Evernote notebook you which to import PDFs into</p>
+<li>Open the scripts with Automator.app</li>
+<li>Update {"Local Inbox"} to the name of the Evernote notebook you which to import PDFs into and save</li>
+</ol><p>Applescript to update:</p>
 
 <pre><code>on run {input, parameters}
     tell application id "com.evernote.evernote"
@@ -78,12 +79,35 @@
 end run
 </code></pre>
 
-<h3>
-<a name="encryption-password" class="anchor" href="#encryption-password"><span class="octicon octicon-link"></span></a>Encryption Password</h3>
+<h4>
+<a name="2-set-encryption-password" class="anchor" href="#2-set-encryption-password"><span class="octicon octicon-link"></span></a>2) Set Encryption Password</h4>
 
-<p>To encrypt PDFs, open the script with Automator.app, set the password and save</p>
+<ol>
+<li>Open the scripts with Automator.app</li>
+<li>Set the password and save</li>
+</ol><h4>
+<a name="3-install" class="anchor" href="#3-install"><span class="octicon octicon-link"></span></a>3) Install</h4>
 
-<h3>
+<ol>
+<li>Move Secure PDF to Evernote.app to Applications or your Desktop</li>
+<li>Double click on PDF to Evernote.workflow &amp; Secure PDF to Evernote.workflow to install them as Image Capture plugins</li>
+</ol><h3>
+<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How To Use</h3>
+
+<h4>
+<a name="image-capture-plugins" class="anchor" href="#image-capture-plugins"><span class="octicon octicon-link"></span></a>Image Capture Plugins</h4>
+
+<ol>
+<li>Open Image Capture.app</li>
+<li>In the "Format" field, select "PDF" Format</li>
+<li>In the "Scan To" field, select "PDF to Evernote" or "Secure PDF to Evernote"</li>
+<li>Click "Scan"</li>
+</ol><h5>
+<a name="secure-pdf-to-evernote-app" class="anchor" href="#secure-pdf-to-evernote-app"><span class="octicon octicon-link"></span></a>Secure PDF to Evernote App</h5>
+
+<ol>
+<li>Drag PDF document to Secure PDF to Evernote.app</li>
+</ol><h3>
 <a name="secure-delete" class="anchor" href="#secure-delete"><span class="octicon octicon-link"></span></a>Secure Delete</h3>
 
 <p>Once a PDF is imported the file will be securely deleted via <a href="https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/srm.1.html">srm</a></p>
@@ -96,16 +120,16 @@ done
         </section>
 
         <aside id="sidebar">
-          <a href="https://github.com/jkusa/automator-pdf-evernote/zipball/master" class="button">
+          <a href="https://github.com/jkusa/scan-to-evernote/zipball/master" class="button">
             <small>Download</small>
             .zip file
           </a>
-          <a href="https://github.com/jkusa/automator-pdf-evernote/tarball/master" class="button">
+          <a href="https://github.com/jkusa/scan-to-evernote/tarball/master" class="button">
             <small>Download</small>
             .tar.gz file
           </a>
 
-          <p class="repo-owner"><a href="https://github.com/jkusa/automator-pdf-evernote"></a> is maintained by <a href="https://github.com/jkusa">jkusa</a>.</p>
+          <p class="repo-owner"><a href="https://github.com/jkusa/scan-to-evernote"></a> is maintained by <a href="https://github.com/jkusa">jkusa</a>.</p>
 
           <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
         </aside>

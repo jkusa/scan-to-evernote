@@ -18,12 +18,14 @@ This set of [Automator][1] scripts for [Mac](http://www.mac.com) has been create
 1. Open the scripts with Automator.app
 2. Update {"Local Inbox"} to the name of the Evernote notebook you which to import PDFs into and save
 
+
     on run {input, parameters}
         tell application id "com.evernote.evernote"
             activate
             create note from file input notebook {"Local Inbox"}
         end tell
     end run
+
 
 
 #### 2) Set Encryption Password
@@ -44,12 +46,11 @@ This set of [Automator][1] scripts for [Mac](http://www.mac.com) has been create
 1. Open Image Capture.app
 2. In the "Format" field, select "PDF" Format
 3. In the "Scan To" field, select "PDF to Evernote" or "Secure PDF to Evernote"
-4. Done
+4. Click "Scan"
 
 ##### Secure PDF to Evernote App
 
 1. Drag PDF document to Secure PDF to Evernote.app
-2. Done
 
 ### Secure Delete
 
